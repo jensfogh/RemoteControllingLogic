@@ -55,7 +55,5 @@ public class WindStationController : ControllerBase
         turbines = turbines.OrderBy(t => t.turbineName).ToList(); // Sort by name, to make output easier to read
 
         return Ok(turbines);
-        // TODO Mangeler at få det lagt op på git
-        // TODO Mangler at skrive kommentare rundt omkring til hvad man evt kunne implementere
     }
 }
